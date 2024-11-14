@@ -1,0 +1,431 @@
+body {
+  background-color: black !important;
+  font-family: "Ubuntu", sans-serif;
+  font-size: normal;
+}
+
+.ubuntu-light {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.ubuntu-regular {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ubuntu-medium {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.ubuntu-bold {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.ubuntu-light-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.ubuntu-regular-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.ubuntu-medium-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.ubuntu-bold-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.social-icons a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 3rem;
+  height: 3rem;
+  background-color: transparent;
+  border: 0.2rem solid #0277bd;
+  font-size: 2rem;
+  border-radius: 50%;
+  transition: 0.3s ease;
+  color: #0277bd;
+  margin-top: 1rem;
+  margin-left: 0.5rem;
+}
+
+.social-icons a:hover {
+  color: black;
+  transform: scale(1) translateY(1px);
+  background-color: #0277bd;
+  box-shadow: 0 0 10px #0277bd;
+}
+
+.body-bg {
+  background-color: black;
+}
+
+.navbar-bg {
+  background-color: rgba(0, 0, 0, 0.6) !important;
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+}
+
+.sidenav {
+  background-color: rgba(63, 63, 63, 0.3);
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+}
+
+.sidenav li a:hover,
+.sidenav li a.active {
+  color: #0277bd;
+  text-shadow: 0 0 5px #0277bd;
+}
+
+.sidenav li a {
+  color: white;
+}
+
+.sidenav-icon-hover:hover{
+  color: #0277bd;
+  transition: all .4s ease-in-out;
+}
+
+.nav-color li a:hover,
+.nav-color li a.active{
+  color: #0277bd;
+  transition: all .3s ease-in-out;
+}
+
+a b span {
+  color: #151515;
+}
+
+.christ-img {
+  border-radius: 50%;
+}
+
+.christ-img img {
+  box-shadow: -5px 5px 15px #0277bd;
+  margin-top: 3rem;
+  position: relative;
+  width: 32vw;
+  height: 36vw;
+  border-radius: 50%;
+}
+
+.services {
+  margin-top: 5rem;
+  padding: 0.5rem;
+}
+
+.headtext {
+  margin-top: 5rem;
+}
+
+.btn-small {
+  margin-top: 2rem;
+  background-color: transparent;
+  width: 8rem;
+  height: 2.8rem;
+  border: 0.2rem solid #0277bd;
+  border-radius: 10px 10px 10px 10px;
+  color: #0277bd;
+}
+
+.btn-hover:hover {
+  border-radius: 10px 10px 10px 10px;
+  background-color: #0277bd;
+  box-shadow: 0px 0px 13px#0277bd;
+  color: black;
+  transition: all .4s ease-in-out;
+}
+
+.wht-txt {
+  color: white;
+}
+
+.a .wht-txt p {
+  color: white;
+}
+
+.videocam {
+  margin-top: -3rem;
+}
+
+.projects {
+  margin-top: 5rem;
+  padding: 0.5rem;
+}
+
+.documentation {
+  margin-top: 5rem;
+  padding: 0.5rem;
+}
+
+.contact {
+  margin-top: 1rem;
+  padding: 0.5rem;
+}
+
+.card {
+  background-color: transparent;
+  border-radius: 20px 20px 20px 20px;
+}
+
+.card-image {
+  border-radius: 20px 20px 20px 20px;
+  cursor: pointer;
+  -webkit-filter: grayscale(80%);
+  filter: grayscale(80%);
+  -webkit-transition: filter(2s);
+}
+
+.card-image:hover{
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+  transition: all .3s ease-in-out;
+  box-shadow: 0px 0px 10px #0277bd;
+}
+
+.card-shadow {
+  box-shadow: 0 0 5px#0277bd;
+}
+
+.card-reveal {
+  background-color: rgba(0, 0, 0, 0.6) !important;
+  border-radius: 20px 20px 20x 20px;
+  backdrop-filter: blur(3px);
+}
+
+.close-reveal {
+  color: #151515;
+  font-size: 35px;
+}
+
+.close-reveal:hover {
+  font-size: 35px;
+  color: #0277bd;
+  text-shadow: 0 0 5px #0277bd;
+}
+
+.icon-reveal {
+  margin-top: -2rem;
+}
+
+.icon-reveal li i {
+  color: green;
+  text-shadow: 0 0 5px green;
+  margin-top: 3rem;
+  font-size: 30px;
+}
+
+img.rounded-corners {
+  border-radius: 20px !important;
+}
+
+.card-panel {
+  border-radius: 25px 25px 25px 25px;
+  background-color: rgba(12, 12, 12, 0.5);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+
+.title-text span b p {
+  text-align: left;
+  margin-left: 0rem;
+}
+
+.lcd {
+  margin-top: 0rem;
+}
+
+.text-info {
+  font-size: small;
+}
+
+.typing-text {
+  font-size: 34px;
+  font-weight: 600;
+  min-width: 280px;
+}
+
+.typing-text span {
+  position: relative;
+}
+
+.typing-text span::before {
+  padding-left: 0.6rem;
+  content: "Front End Developer";
+  color: #0277bd;
+  animation: words 20s infinite;
+}
+
+.typing-text::after {
+  padding-left: 0.6px;
+  content: "";
+  background-color: black;
+  position: absolute;
+  width: 5px;
+  height: 50px;
+  border-left: 5px solid #0277bd;
+  animation: cursor 0.3s infinite;
+}
+
+.box-text {
+  margin-top: -0.5rem;
+}
+
+.border1 {
+  text-align: left;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  padding-top: 1rem;
+  padding-left: 0.5rem;
+  background-color: transparent;
+  box-shadow: 8px 5px 5px #0277bd;
+  height: 35rem;
+  width: 5rem;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 10px;
+}
+
+.shdw-txt-border {
+  text-shadow: 0px 0px 5px white;
+}
+
+.border2 {
+  text-align: right;
+  background-color: transparent;
+  box-shadow: -8px 5px 5px #0277bd;
+  height: 20rem;
+  width: 5rem;
+  border-bottom-left-radius: 10px;
+  padding-top: 1rem;
+  padding-left: 0.5rem;
+}
+
+.map-style {
+  margin-bottom: 2rem;
+}
+
+.scnd-text {
+  text-align: right;
+}
+
+.scnd-text-brand {
+  color: #0277bd;
+  padding-top: 1.5rem;
+  margin-left: 2rem;
+}
+
+.scnd-text-loc {
+  margin-top: -0.5rem;
+  margin-left: 2rem;
+}
+
+.scnd-text-loc:hover {
+  text-shadow: 0 0 5px #0277bd;
+}
+
+.trd-text p {
+  margin-top: -0.01rem;
+  text-align: right;
+}
+
+.trd-text h5 {
+  text-align: right;
+}
+
+.tdr-text p span {
+  text-align: right;
+}
+
+.trd-text p a i {
+  color: white;
+}
+
+.icon-contact {
+  margin-top: -0.8rem;
+  font-size: 1.5rem;
+}
+
+.icon-contact p a {
+  color: white;
+  background-color: transparent;
+  border-radius: 50%;
+}
+
+.icon-contact p a i:hover {
+  text-shadow: 0 0 8px #0277bd;
+  color: #0277bd;
+  transition: all .2s ease-in-out;
+}
+
+.email-text {
+  color: #0277bd;
+}
+
+.email-text2 a p {
+  color: white;
+  text-align: right;
+}
+
+.email-hover:hover {
+  text-shadow: 0 0 3px #0277bd;
+}
+
+.follow-icon p a i {
+  width: 1rem;
+  height: 1rem;
+  font-size: 1rem;
+}
+
+.end-footer {
+  background-color: black;
+}
+
+.footer-copyright {
+  background-color: rgba(12, 12, 12, 0.5) !important;
+}
+
+.serra-hover:hover {
+  color: #0277bd !important;
+  text-shadow: 0 0 3px #0277bd;
+}
+
+@keyframes cursor {
+  to {
+    border-left: 1px solid #0277bd;
+  }
+}
+
+@keyframes words {
+  26%,
+  51% {
+    content: "Coder";
+  }
+  52%,
+  77% {
+    content: "CCTV Technician";
+  }
+  78%,
+  100% {
+    content: "Phone Technician";
+  }
+}
